@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import "./navbar.css"
 import {AiOutlineHome, AiOutlineUser, AiOutlineFolderOpen} from 'react-icons/ai'
 import {BiBook, BiMessageSquareDetail} from 'react-icons/bi'
-import {RiServiceLine} from 'react-icons/ri'
 
 const Navbar = () => {
   const [active, setActive] = useState('#')

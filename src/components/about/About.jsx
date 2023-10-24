@@ -1,11 +1,7 @@
 import React from 'react'
 import './about.css'
 import Me from '../../assets/me1.png'
-import { FaAward } from 'react-icons/fa'
-import { FiUsers } from 'react-icons/fi'
-import { VscFolderLibrary } from 'react-icons/vsc'
 import { FaPython } from 'react-icons/fa'
-import { FaReact } from 'react-icons/fa'
 import { BsDatabaseAdd } from 'react-icons/bs'
 import { TbBrandNodejs } from 'react-icons/tb'
 
