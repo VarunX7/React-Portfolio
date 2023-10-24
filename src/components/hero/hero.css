@@ -1,0 +1,112 @@
+header{
+    height: 100vh;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.header__container{
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* ========================== CTA ========================= */
+
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+}
+
+/* ======================= SOCIALS ======================== */
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    right: -8rem;
+    bottom: 3rem;
+}
+
+.socials::after{
+    content: "";
+    width: 1px;
+    height: 5rem;
+    background-color: var(--color-primary);
+}
+
+/* ======================== IMAGE =========================== */
+
+.me{
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* ===================== SECTION-HEADING ========================= */
+
+.section-heading{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: -10rem;
+    left: -10rem;
+    bottom: 10rem;
+    font-size: 0.9rem;
+    color: var(--color-primary);
+}
+
+.section-heading h3{
+  transform: rotate(90deg);
+}
+
+.section-heading::before{
+  content: "";
+  margin: 2rem 0;
+  width: 2px;
+  height: 5rem;
+  background-color: var(--color-primary);
+}
+.section-heading::after{
+  content: "";
+  margin: 2rem 0;
+  width: 2px;
+  height: 5rem;
+  background-color: var(--color-primary);
+}
+
+/* ==================== MEDIA QUERIES ========================= */
+
+/* .............MEDIUM DEVICES............... */
+
+@media screen and (max-width: 1024px) {
+    .header{
+      height: 68vh;
+    }
+  }
+  
+  /* .............SMALL DEVICES............... */
+  
+  @media screen and (max-width: 600px) {
+    header{
+      height: 100vh;
+      padding-top: 0.5rem;
+    }
+    .socials, .section-heading{
+      display: none;
+    }
+  }
+  
