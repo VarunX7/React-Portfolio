@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <a href="#" className={ active==='#' ? 'active' : '' } onClick={()=>{setActive('#')}}><AiOutlineHome /></a>
+      <a href="#home" className={ active==='#' ? 'active' : '' } onClick={()=>{setActive('#')}}><AiOutlineHome /></a>
       <a href="#about" className={ active==='#about' ? 'active' : ''} onClick={()=>{setActive('#about')}}><AiOutlineUser /></a>
       <a href="#experiance" className={ active==='#experiance' ? 'active' : ''} onClick={()=>{setActive('#experiance')}}><BiBook /></a>
       <a href="#portfolio" className={ active==='#portfolio' ? 'active' : ''} onClick={()=>{setActive('#portfolio')}}><AiOutlineFolderOpen /></a>

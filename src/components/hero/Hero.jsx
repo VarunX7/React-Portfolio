@@ -5,7 +5,7 @@ import Socials from './Socials'
 
 const Hero = () => {
   return (
-    <header>
+    <header id='#home'>
       <div className="container header__container" id='hero'>
         <div className="section-heading"><h3>HOME</h3></div>
         <h5>Hello I'm</h5>

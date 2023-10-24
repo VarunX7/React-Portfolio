@@ -18,9 +18,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.instagram.com/v.s.rautela_07/" target='_blank'><FiInstagram /></a>
-        <a href="https://www.linkedin.com/in/varun-parihar-477782226/" target='_blank'><BsLinkedin /></a>
-        <a href="mailto:vsrautela07@gmail.com" target='_blank'><MdOutlineEmail /></a>
+        <a href="https://www.instagram.com/v.s.rautela_07/" target='_blank' rel="noreferrer"><FiInstagram /></a>
+        <a href="https://www.linkedin.com/in/varun-parihar-477782226/" target='_blank' rel="noreferrer"><BsLinkedin /></a>
+        <a href="mailto:vsrautela07@gmail.com" target='_blank' rel="noreferrer"><MdOutlineEmail /></a>
       </div>
 
       <div className="footer__copyright">

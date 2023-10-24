@@ -30,17 +30,17 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail  className='contact__option-icon'/>
             <h4>Email</h4>
-            <a href="mailto:vsrautela07@gmail.com" target="_blank">Send a message</a>
+            <a href="mailto:vsrautela07@gmail.com" target='_blank' rel="noreferrer">Send a message</a>
           </article>
           <article className="contact__option">
             <BsLinkedin className='contact__option-icon'/>
             <h4>linkedIn</h4>
-            <a href="https://www.linkedin.com/in/varun-parihar-477782226/" target="_blank" >Connect</a>
+            <a href="https://www.linkedin.com/in/varun-parihar-477782226/" target='_blank' rel="noreferrer" >Connect</a>
           </article>
           <article className="contact__option">
             <AiFillGithub className='contact__option-icon'/>
             <h4>Github</h4>
-            <a href="https://github.com/VarunX7" target="_blank">View Projects</a>
+            <a href="https://github.com/VarunX7" target='_blank' rel="noreferrer">View Projects</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
